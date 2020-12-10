@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 header h1 {
@@ -30,6 +32,7 @@ article {
 
 article header img {
   width: 100%;
+  border-radius: 50%;
 }
 
 article header h1 {
