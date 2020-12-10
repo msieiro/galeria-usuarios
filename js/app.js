@@ -3,7 +3,7 @@
 import fetchUsersFromApi from './api/Fetch.js';
 import buildUserProfileComponent from './components/UserProfile.component.js';
 
-const ammountOfUsers = prompt();
+const ammountOfUsers = prompt('Introduce la cantidad de usuarios deseada');
 
 const apiUrl = `https://randomuser.me/api/?results=${ammountOfUsers}`;
 
